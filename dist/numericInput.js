@@ -1,0 +1,1 @@
+var component=angular.module("numericInputModule",[]);component.directive("numericInput",function(){return{restrict:"A",link:function(n,e,t){e.bind("keydown keypress",function(n){n.which>=65&&n.which<=90&&n.preventDefault()})}}});
